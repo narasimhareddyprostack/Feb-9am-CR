@@ -5,11 +5,11 @@ Git Repo
 
 Git Commands
 -----------------
-Git init
-git commit -m "Firsst Batch"
+>>Git init
+>>git commit -m "Firsst Batch"
 
 git remote add origin <repo name >
 >>git remote add origin https://github.com/narasimhareddyprostack/Feb-9am-CR.git
 
-git push -f origin master
-git pull origin master
+>>git push -f origin master
+>>git pull origin master
