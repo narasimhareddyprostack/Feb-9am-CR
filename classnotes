@@ -20,7 +20,6 @@ Material Theme Icon
 
 Live Server
 
-Table example  - <th> , <td> , <tr>
+Table example  - <table> <th> , <td> , <tr>
 
 <th> :  tag defines the header cells in the table which are displayed as bold
-    
