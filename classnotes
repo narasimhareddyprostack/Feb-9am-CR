@@ -13,3 +13,14 @@ git remote add origin <repo name >
 
 >>git push -f origin master
 >>git pull origin master
+
+VS Code Extenstions's
+
+Material Theme Icon
+
+Live Server
+
+Table example  - <th> , <td> , <tr>
+
+<th> :  tag defines the header cells in the table which are displayed as bold
+    
