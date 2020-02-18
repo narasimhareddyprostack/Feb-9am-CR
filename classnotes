@@ -23,3 +23,19 @@ Live Server
 Table example  - <table> <th> , <td> , <tr>
 
 <th> :  tag defines the header cells in the table which are displayed as bold
+-------------------------------------
+
+HTML 5 form
+Imp Attributes
+	type,
+	value,
+	name,
+	id,
+	required
+	
+<form>
+	action
+	method="post" or get
+	group
+	id
+	
