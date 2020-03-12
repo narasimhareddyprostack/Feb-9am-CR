@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+				CRUD - Operations in Data Types
+        </title>
+    </head>
+    <body>
+		<script>
+			var address = {
+							house_NO : 96,
+							area: "R J Gardern",
+							pincode : 560037,
+							
+							delivery_Type:function(){
+								return "Please delivery @" + " " + address.house_NO; 
+							},
+							
+							available : function(){
+							return this.house_NO +"" + this.area;		
+							}
+
+						  };
+
+			//document.write(address.delivery_Type()); 
+			//document.write(address.landmark);	
+			document.write(address.available());	
+					  
+
+			//for(a in address)
+			//document.write(a);
+			
+		</script>
+    </body>
+</html>

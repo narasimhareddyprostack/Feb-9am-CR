@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+				CRUD - Operations in Data Types
+        </title>
+    </head>
+    <body>
+		<script>
+			
+			var marker_Pen;
+			marker_Pen = {
+					color  : 'blue',
+					lenght : 7,
+					width  : 2
+					
+			};
+			var a = marker_Pen;
+			document.writeln(a.color);
+			a.lenght = 8;
+			document.writeln(a.lenght);
+			document.writeln(marker_Pen.lenght);
+			delete a.lenght;
+			document.writeln(a.lenght);
+			document.write(marker_Pen.lenght);
+			marker_Pen.lenght = 9;
+			document.writeln(a.lenght);
+		</script>
+    </body>
+</html>
