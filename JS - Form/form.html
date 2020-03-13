@@ -1,0 +1,68 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="container">
+    <div class="col-lg-4">
+        <form  class="form-group" onsubmit="return formValidation()" action="">
+            <div>
+                <label> Name </label>
+                <input type="text" name="userName" id="userName" class="form-control"> 
+                <span id="uName" class="text text-danger"></span>
+            </div>
+
+            <div>
+                <label> Password </label>
+                <input type="password" name="userPassword" id="userPassword" class="form-control"> 
+                <span id="uPass" class="text text-danger"></span>
+            </div>
+             
+             <div>  
+                <label> Email </label>
+              <input type="text" name="userEmail" id="userEmail"  class="form-control"> 
+              <span id="uEmail" class="text text-danger"></span>
+             </div>
+             <div>
+                 <label> Number </label>
+                   <input type="text" name="mobileNumber" id="mobileNumber" class="form-control" > <br/><br/>
+                   <span id="uMobile" class="text text-danger"></span>
+                </div>
+            <div>
+            <input type="submit" name="submit" value="Submit" class="btn btn-success">
+            </div>
+        </form>
+     
+    </div>
+
+    <script>
+    function formValidation(){
+        var user_Name = document.getElementById("userName").value;
+        var user_Password = document.getElementById("userPassword").value;
+        var user_Email = document.getElementById("userEmail").value;
+        var user_Mobile = document.getElementById("mobileNumber").value;
+        
+        if(user_Name == ""){
+            document.getElementById("uName").innerHTML = " Please Enter User Name";
+            return false;
+        }
+
+        if(user_Password == ""){
+            document.getElementById("uPass").innerHTML = " Please Enter Password";
+            return false;
+        }
+        if(user_Email == ""){
+            document.getElementById("uEmail").innerHTML = " Please Enter Email";
+            return false;
+        }
+        if(user_Mobile == ""){
+            document.getElementById("uMobile").innerHTML = " Please Enter Mobile";
+            return false;
+        }
+      
+    }
+    </script>
+    </body>
+</html>
